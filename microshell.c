@@ -67,3 +67,8 @@ int main(int argc, char **argv, char **envp)
     }
     return status;
 }
+
+
+$ ./microshell /bin/echo hello "|" /usr/bin/grep h
+$ ./microshell /bin/echo hello ";" /bin/echo world
+$ ./microshell cd .. ";" /bin/pwd
