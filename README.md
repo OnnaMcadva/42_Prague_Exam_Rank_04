@@ -39,3 +39,6 @@ If a system call, except execve and chdir, returns an error your program should 
 If execve failed you should print "error: cannot execute executable_that_failed" in STDERR followed by a '\n' with executable_that_failed replaced with the path of the failed executable (It should be the first argument of execve)
 
 Your program should be able to manage more than hundreds of "|" even if we limit the number of "open files" to less than 30.
+
+
+![Screenshot from 2024-10-08 10-55-20](https://github.com/user-attachments/assets/061b81d7-f82d-481e-9a3a-cf2492fc36b8)
